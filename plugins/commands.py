@@ -21,7 +21,7 @@ async def start(client, message):
                 InlineKeyboardButton('HB4All', url='https://t.me/HB4All')
             ],
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('My Creator', url=f"https://t.me/happyboy59"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -40,11 +40,8 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 HB4All Bot', url='https://t.me/HB4All_Bot')
-            ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
-        ]]
+            InlineKeyboardButton('🤖 HB4All', url='https://t.me/HB4All_Bot')
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -81,11 +78,8 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 HB4All Bot', url='https://t.me/HB4All_Bot')
-            ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
-        ]]
+            InlineKeyboardButton('🤖 HB4All', url='https://t.me/HB4All_Bot')
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
