@@ -40,7 +40,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Support', url='https://t.me/+oN7Muazwn94yYTBl')
+            InlineKeyboardButton('🤖 Report&Request', url='https://t.me/+oN7Muazwn94yYTBl')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -78,7 +78,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Support', url='https://t.me/+oN7Muazwn94yYTBl')
+            InlineKeyboardButton('🤖 Report&Request', url='https://t.me/+oN7Muazwn94yYTBl')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
