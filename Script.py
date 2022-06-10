@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """Hello {}, My Name Is D Robot, \n I Can Provide Dhanush Movie,VideoSongs,MP3 Songs Etc...\n Add Me In Group Or Send Movie Name Here 😍 \n """
+    START_TXT = """Hello {} \nMy Name Is D Robot\nI Can Provide Dhanush Movies\nVideoSongs,MP3Songs Etc.\nAdd Me In Group Or Send Movie Name Here ☺️ \n """
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
