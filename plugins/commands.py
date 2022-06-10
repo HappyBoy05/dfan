@@ -18,10 +18,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('HB4All', url='https://t.me/HB4All')
+                InlineKeyboardButton('Main Channel', url='https://t.me/Mr_D_Robot')
             ],
             [
-                InlineKeyboardButton('My Creator', url=f"https://t.me/happyboy59"),
+                InlineKeyboardButton('My Creator 👨‍💻', url=f"https://t.me/happyboy59"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -40,7 +40,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('💥 HB4All', url='https://t.me/hb4all')
+            InlineKeyboardButton('Contact Owner 👨‍💻', url='https://t.me/happyboy59')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -78,7 +78,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('💥 HB4All', url='https://t.me/hb4all')
+            InlineKeyboardButton('Contact Owner 👨‍💻', url='https://t.me/happyboy59')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
